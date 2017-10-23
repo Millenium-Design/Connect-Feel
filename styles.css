@@ -1,5 +1,9 @@
-/* Insert CSS below */
+/* Insert CSS below. For example... */
 
 body, html {
-  background: blue; 
+  background: green;
+}
+
+h1, ul, a, p {
+  color: white;
 }
