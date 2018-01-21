@@ -9,6 +9,10 @@
   min-height: 100%; 
 }
 
+body, html {
+  background: grey;
+}
+
 #information {
     height:110vh;
     background-color:white;
