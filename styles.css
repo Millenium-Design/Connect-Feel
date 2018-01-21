@@ -1,143 +1,74 @@
-.background {
-  margin: 0;
-  padding: 0;
-  background-image: url(./images/face.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  min-height: 100%; 
+p{ line-height: 1em; }
+h1, h2, h3, h4{
+    color: Black;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 1.7em; }
+h2{ font-size: 1.5em; }
+a{
+	color: black;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+
+
+
+body{
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
 }
 
-#information {
-    height:110vh;
-    background-color:white;
-    padding-top:30vh;
-    padding-left: 25vw;
-    padding-right: 25vw;
-    font-family: 'PT Serif', serif;
-    font-size: 4vw;
-    text-align: center;
+#page{ margin: 20px; }
+
+ */
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
 }
 
-#icon_home{
-    padding-top: 10vh;
-    height: auto;
-    width: 25vw;
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
 }
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: orange;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #ff8f00; }
 
-
-.logo{
-  float:left;
+#content{
+	margin: 30px 0;
+	background: white;
+	padding: 20px;
+	clear: both;
 }
-
-
-#menu {
-  float: right;
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
 }
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
 
-.connectfeel {
-  min-height: 100vh;
-  font-family: 'Playfair Display';
-  font-size: 52px;
-  text-align: center;
-  letter-spacing: 5px;
-  color: #ffffff;
-  position: relative;
-  padding-top: 50vh;
-  text-align: center;
-}
-
-.downloads {
-    padding-top: 10%;
-    margin-left: 15%;
-    height:250px;   
-}
-
-.about {
-    padding-bottom: 50vh;
-    padding-top: 10%;
-    margin-left: 15%;
-    height:250px; 
-}
-#facebook {
-    max-width: 20%;
-    height: auto;
-}
-#twitter {
-    max-width: 20%;
-    height: auto;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-#instagram {
-    max-width: 20%;
-    height: auto;
-    text-align: center;    
-}
-
-#cantact {
-    padding-top: 20vh;
-    display: block;''
-    height: auto;
-    width: 35vw;
-    vertical-align: middle;
-    margin: auto;
-}
-
-
-.about_type{
-    padding-top: -5vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    height: 100vh;
-    text-align: left;
-    font-family: 'PT Serif', serif;
-    font-weight: 300;
-    font-size: 6vw;
-}
-
-#racism {
-    color: red;
-}
-.downloads_type{
-    font-family: 'PT Serif', serif;
-    font-size: 3vw;
-    font-weight: 400;
-    text-align: left;
-    padding-left: 20vw;
-    padding-top: 20vh;
-    display: inline-flex;
-    height: 100vh;
-}
-
-
-}
-.update{
-    height: 100vh;
-    text-align: left;
-    font-family: 'PT Serif', serif;
-    font-weight: 200;
-    font-size: 2vw;   
-    display: table;
-    width: 100%;
-    line-height: 7vh;
-}
-
-
-
-.update1 {
-    display: table-cell;
-    padding: 5vw;
-}
-
-
-h2{
-    text-align: left;
-    font-family: 'PT Serif', serif;
-    font-weight: 500;
-    font-size: 4vw;
-}
-
-
-
+*/
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }
