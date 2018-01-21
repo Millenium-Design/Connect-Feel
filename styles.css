@@ -1,5 +1,5 @@
 body, html {
-  background: grey;
+  background: blue;
 }
 
 .title {
@@ -37,9 +37,9 @@ ul li {
 .rectangle {
     width: 100%;
     height: 10px;
-    background: grey;
-    color: grey;
-    text-decoration-color: grey
+    background: blue;
+    color: blue;
+    text-decoration-color: blue
     
 }
 
