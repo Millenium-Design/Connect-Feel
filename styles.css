@@ -18,22 +18,155 @@
     font-family: 'PT Serif', serif;
     font-size: 4vw;
     text-align: center;
+
+}
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 70px;
 }
 
-.connect_feel_image{
-    float: right;
-    padding-right: 95px;
-    padding-left: 25px
+.navigation-bar {
+  background-color: #ffffff;
+  height: 70px;
+  width: 100%;
+  text-align:right;
+}
+.navigation-bar img{
+  float:left;
+  height: 100%;
+  position: relative;
+  padding-left: 10px;
+}
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
 
-p{ line-height: 1em; }
-h1, h2, h3, h4{
-    color: Black;
-	font-weight: normal;
-	line-height: 1.1em;
-	margin: 0 0 .5em 0;
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+    
+}
+
+.navigation-bar li a {
+  color: black;
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+.navigation-bar li a:hover {
+  color: white;
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+#menu {
+  float: right;
+}
+
+.about {
+  min-height: 100vh;
+  font-family: 'Playfair Display';
+  font-size: 52px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #ffffff;
+  position: relative;
+  padding-top: 50vh;
+  text-align: center;
+}
+
+.downloads {
+    padding-top: 10%;
+    margin-left: 15%;
+    height:250px;       
+}
+
+.video {
+    padding-bottom: 50vh;
+    padding-top: 10%;
+    margin-left: 15%;
+    height:250px; 
+
+
+#downloadpage {
+    padding-top: 20vh;
+    display: block;''
+    height: auto;
+    width: 35vw;
+    vertical-align: middle;
+    margin: auto;
+}
+
+
+.furom_type{
+    padding-top: -5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 100vh;
+    text-align: left;
+    font-family: 'PT Serif', serif;
+    font-weight: 300;
+    font-size: 6vw;
+
+}
+.contact_type{
+    font-family: 'PT Serif', serif;
+    font-size: 3vw;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 20vw;
+    padding-top: 20vh;
+    display: inline-flex;
+    height: 100vh;
+
+}
+.update{
+    height: 100vh;
+    text-align: left;
+    font-family: 'PT Serif', serif;
+    font-weight: 200;
+    font-size: 2vw;   
+    display: table;
+    width: 100%;
+    line-height: 7vh;
+}
 
 
 
+.update1 {
+    display: table-cell;
+    padding: 5vw;
+}
 
-  
+
+h2{
+    text-align: left;
+    font-family: 'PT Serif', serif;
+    font-weight: 500;
+    font-size: 4vw;
+}
+
+
+
+ 
   
